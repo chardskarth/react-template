@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 
-import style from './styles.scss';
+// import style from './styles.scss';
 
 class ExampleScene2 extends Component{
   render(){
