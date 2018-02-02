@@ -1,0 +1,6 @@
+.mainBox{
+	@extend .border;
+	@extend .border-primary;
+	@extend .rounded;
+	@extend .p-2;
+}

@@ -1,0 +1,27 @@
+
+.mainBox{
+	@extend .border;
+	@extend .border-primary;
+	@extend .rounded;
+	@extend .p-2;
+
+	@include make-container();
+}
+
+
+.header{
+	background: $teal;
+	@extend .rounded;
+
+	& span{
+		@extend .p-1;
+	}
+}
+
+.contactItem, .header{
+	@include make-row();
+	> span{
+
+	}
+
+}

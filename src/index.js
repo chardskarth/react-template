@@ -32,7 +32,7 @@ sagaMiddleware.run(allSagas);
 // MAIN SCENES
 import ExampleScene1 from './scenes/example-scene-1';
 import ExampleScene2 from './scenes/example-scene-2';
-import TodoScene from './scenes/todo';
+import MainScene from './scenes/main';
 
 ReactDOM.render(
   <Provider store={store}>
@@ -41,7 +41,7 @@ ReactDOM.render(
         <Route path='scene2' component={ExampleScene2} />
       </Route> */}
       <Switch>
-        <Route exact path='/' component={TodoScene}></Route>
+        <Route exact path='/' component={MainScene}></Route>
         <Route path='/scene1' component={ExampleScene1}></Route>
         <Route path='/scene2' component={ExampleScene2}></Route>
       </Switch>

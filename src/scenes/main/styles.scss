@@ -1,0 +1,21 @@
+.title{
+	@extend .text-center;
+}
+
+.contactFormsContainer{
+	@include make-container();
+}
+
+.contactFormsRow{
+	@include make-row();
+
+	> *:nth-child(1){
+		@include make-col-ready();
+		@include make-col(4);
+	}
+	> *:nth-child(2){
+		@include make-col-ready();	
+		@include make-col(8);
+	}
+}
+
